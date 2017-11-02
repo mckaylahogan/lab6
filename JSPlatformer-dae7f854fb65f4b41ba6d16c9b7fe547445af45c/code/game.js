@@ -198,9 +198,9 @@ Player.prototype.moveX = function(step, level, keys) {
   this.pos = newPos;
 };
 
-var gravity = 30;
-var jumpSpeed = 17;
-var playerYSpeed = 7;
+var gravity = 20;
+var jumpSpeed = 20;
+var playerYSpeed = 15;
 
 Player.prototype.moveY = function(step, level, keys) {
   this.speed.y += step * gravity;
